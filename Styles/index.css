@@ -92,3 +92,7 @@ p {
   border-style: none;
   color: white;
 }
+
+.blog-content {
+  width: 60%;
+}
