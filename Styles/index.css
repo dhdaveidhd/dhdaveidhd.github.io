@@ -4,6 +4,32 @@ body {
   background-color: #242582;
 }
 
+@media screen and (max-width: 1200px) {
+  body {
+    background-color: teal;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: rgb(156, 158, 17);
+    text-align: justify;
+    margin: auto;
+    width: 100%;
+   
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    background-color: green;
+    text-align: justify;
+    margin: auto;
+    width: 75%;
+  }
+}
+
 #title { 
   text-align: center;
   font-size: 50pt;
@@ -64,12 +90,12 @@ p {
   padding: 1%;
 }
 
-.grid-container {
+/* .grid-container {
   display: grid;
   grid-template-columns:repeat(12, 1fr);
   grid-gap: 10px;
   padding: 10px;
-}
+} */
 
 #intro-photo {
   text-align: center;
@@ -95,4 +121,5 @@ p {
 
 .blog-content {
   width: 60%;
+  text-align: justify;
 }
